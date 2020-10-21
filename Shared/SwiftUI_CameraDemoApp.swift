@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_CameraDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SimpleVideoCaptureView(presenter: SimpleVideoCapturePresenter())
         }
     }
 }

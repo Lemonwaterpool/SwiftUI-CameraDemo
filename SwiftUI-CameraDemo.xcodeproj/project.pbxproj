@@ -13,6 +13,14 @@
 		75CED2942540748D000AD204 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED27F2540748C000AD204 /* ContentView.swift */; };
 		75CED2952540748D000AD204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CED2802540748D000AD204 /* Assets.xcassets */; };
 		75CED2962540748D000AD204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CED2802540748D000AD204 /* Assets.xcassets */; };
+		75CED2A2254074F7000AD204 /* CALayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED2A1254074F7000AD204 /* CALayerView.swift */; };
+		75CED2A3254074F7000AD204 /* CALayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED2A1254074F7000AD204 /* CALayerView.swift */; };
+		75CED2A725407692000AD204 /* SimpleVideoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED2A625407692000AD204 /* SimpleVideoCaptureView.swift */; };
+		75CED2A825407692000AD204 /* SimpleVideoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED2A625407692000AD204 /* SimpleVideoCaptureView.swift */; };
+		75CED2AC254076EB000AD204 /* SimpleVideoCapturePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED2AB254076EB000AD204 /* SimpleVideoCapturePresenter.swift */; };
+		75CED2AD254076EB000AD204 /* SimpleVideoCapturePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED2AB254076EB000AD204 /* SimpleVideoCapturePresenter.swift */; };
+		75CED2B125407745000AD204 /* SimpleVideoCaptureInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED2B025407745000AD204 /* SimpleVideoCaptureInteractor.swift */; };
+		75CED2B225407745000AD204 /* SimpleVideoCaptureInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED2B025407745000AD204 /* SimpleVideoCaptureInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,10 @@
 		75CED28D2540748D000AD204 /* SwiftUI-CameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-CameraDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CED28F2540748D000AD204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75CED2902540748D000AD204 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		75CED2A1254074F7000AD204 /* CALayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerView.swift; sourceTree = "<group>"; };
+		75CED2A625407692000AD204 /* SimpleVideoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVideoCaptureView.swift; sourceTree = "<group>"; };
+		75CED2AB254076EB000AD204 /* SimpleVideoCapturePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVideoCapturePresenter.swift; sourceTree = "<group>"; };
+		75CED2B025407745000AD204 /* SimpleVideoCaptureInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVideoCaptureInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,10 @@
 			children = (
 				75CED27E2540748C000AD204 /* SwiftUI_CameraDemoApp.swift */,
 				75CED27F2540748C000AD204 /* ContentView.swift */,
+				75CED2A1254074F7000AD204 /* CALayerView.swift */,
+				75CED2A625407692000AD204 /* SimpleVideoCaptureView.swift */,
+				75CED2AB254076EB000AD204 /* SimpleVideoCapturePresenter.swift */,
+				75CED2B025407745000AD204 /* SimpleVideoCaptureInteractor.swift */,
 				75CED2802540748D000AD204 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,7 +204,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				75CED2932540748D000AD204 /* ContentView.swift in Sources */,
+				75CED2A2254074F7000AD204 /* CALayerView.swift in Sources */,
+				75CED2AC254076EB000AD204 /* SimpleVideoCapturePresenter.swift in Sources */,
 				75CED2912540748D000AD204 /* SwiftUI_CameraDemoApp.swift in Sources */,
+				75CED2A725407692000AD204 /* SimpleVideoCaptureView.swift in Sources */,
+				75CED2B125407745000AD204 /* SimpleVideoCaptureInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +217,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				75CED2942540748D000AD204 /* ContentView.swift in Sources */,
+				75CED2A3254074F7000AD204 /* CALayerView.swift in Sources */,
+				75CED2AD254076EB000AD204 /* SimpleVideoCapturePresenter.swift in Sources */,
 				75CED2922540748D000AD204 /* SwiftUI_CameraDemoApp.swift in Sources */,
+				75CED2A825407692000AD204 /* SimpleVideoCaptureView.swift in Sources */,
+				75CED2B225407745000AD204 /* SimpleVideoCaptureInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
